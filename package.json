@@ -1,0 +1,41 @@
+{
+	"name": "is-plain-path",
+	"version": "1.0.0",
+	"description": "Check if a file path is a text file",
+	"license": "MIT",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/silonance/is-plain-path.git"
+    },
+	"author": {
+		"name": "silonance"
+	},
+	"engines": {
+		"node": ">=8"
+	},
+	"scripts": {
+		"test": "xo && ava && tsd"
+	},
+	"files": [
+		"index.js",
+		"index.d.ts"
+	],
+	"keywords": [
+		"text",
+		"extensions",
+		"extension",
+		"file",
+		"path",
+		"check",
+		"detect",
+		"is"
+	],
+	"dependencies": {
+		"text-extensions": "^2.0.0"
+	},
+	"devDependencies": {
+		"ava": "^1.4.1",
+		"tsd": "^0.7.2",
+		"xo": "^0.24.0"
+	}
+}
